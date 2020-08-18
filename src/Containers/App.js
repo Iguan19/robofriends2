@@ -39,7 +39,7 @@ class App extends Component {
 			<h1> Loading </h1> :
 		(
 	    <div className="App tc">
-	      <h1 className='tc'>Robofriends</h1>
+	      <h1 className='f1 tc'>ROBOFRIENDS</h1>
 	      <SearchBox onInputChange={onInputChange}/>
 	      <ScrollComponent>
 	      	<CardList robots={filteredRobots} />
