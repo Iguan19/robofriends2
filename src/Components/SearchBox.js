@@ -4,7 +4,7 @@ const SearchBox = ({onInputChange}) => {
 	return(
 		<div className='tc'>
 			<input
-				className='pa3 ba b--green bg-lightest-blue'
+				className='pa3 ba b--green bg-lightest-blue br2'
 				type='text' 
 				placeholder='Enter Robot Name'
 				onChange={ onInputChange }
